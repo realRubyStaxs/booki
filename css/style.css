@@ -507,17 +507,15 @@ body {
 
     .accommodation-and-popular {
         flex-direction: column;
-        width:80%;
+        width:100%;
     }
 
-    .accommodation {
-        display: flex;
-        width:80%;
+    .Accommodation-cards .card {
+        width:100%;
     }
 
     .popular  {
         height:252px;
-        width:80%;
     }
 
     .popular-cards {
@@ -527,7 +525,7 @@ body {
     }
 
     .popular-cards .card {
-        width:274px;
+        width:100%;
     }
 
     .todo {
@@ -535,14 +533,14 @@ body {
     }
 
     .todo .todo-cards {
-        width:193.5px;
+        width:100%;
         height:270px;
         margin:0px;
     }
 
     .todo .card img {
         height:200px;
-        width:193.5px;
+        width:100%;
     }
 
     .footer {
