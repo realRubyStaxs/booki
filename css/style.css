@@ -13,6 +13,10 @@
     color: var(--main-color);
 }
 
+.main-container {
+    width: 1440px;
+}
+
 body {
     margin-left:auto;
     margin-right:auto;
@@ -204,10 +208,6 @@ body {
     justify-content: center;
 }
 
-.main-container {
-    width: 100%;
-    box-sizing: border-box;
-}
 
 .section-title {
     margin: 0;
@@ -484,13 +484,13 @@ body {
     color:black;
 
 }
-
 @media (max-width: 1024px) {
 
 
     .main-container {
         width:100%;
         margin:auto;
+        padding: 20px;
     }
 
     .filter {
@@ -508,17 +508,26 @@ body {
 
     .accommodation-and-popular {
         flex-direction: column;
-        width:80%;
+        width:100%;
     }
 
-    .accommodation {
-        display: flex;
-        width:80%;
+    .Accommodation-cards .card {
+        width:100%;
     }
 
     .popular  {
         height:252px;
-        width:80%;
+    }
+
+    .navheader ul li a:hover  {
+        padding-top: 12px;
+    }
+
+    .navheader {
+        margin-left: auto;
+        align-items: center;
+        display: flex;
+        margin-top: -30px;
     }
 
     .popular-cards {
@@ -528,7 +537,7 @@ body {
     }
 
     .popular-cards .card {
-        width:274px;
+        width:100%;
     }
 
     .todo {
@@ -536,21 +545,35 @@ body {
     }
 
     .todo .todo-cards {
-        width:193.5px;
+        width:100%;
         height:270px;
         margin:0px;
     }
 
     .todo .card img {
         height:200px;
-        width:193.5px;
+        width:100%;
     }
-
+    .todo .card {
+        width:150px;
+    }
     .footer {
         gap:125px;
         margin-top: -150px;
     }
 
+    .todocard {
+        width:25%;
+    }
+
+
+.card-text {
+    line-height: 5px;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    margin:1px;
+    }
   }
 
 @media (max-width: 767px) {
@@ -725,7 +748,6 @@ body {
         
     }
 
-
     .accommodation {
         background-color: white !important;
         margin-top: -20px;
@@ -733,7 +755,7 @@ body {
 
     .popular {
         width:100%;
-        height: 625px;
+        height: 675px;
 
     }
 
@@ -758,6 +780,10 @@ body {
     .todo .card img {
         height:141px;
         width:315px;
+    }
+
+    .todo{
+        margin-top: 0px;
     }
 
     .footer {
