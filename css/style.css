@@ -554,9 +554,7 @@ body {
         height:200px;
         width:100%;
     }
-    .todo .card {
-        width:150px;
-    }
+
     .footer {
         gap:125px;
         margin-top: -150px;
